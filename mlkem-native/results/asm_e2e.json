@@ -1,0 +1,178 @@
+{
+ "results": {
+  "main keygen: bit-exact, 0 XMEM accesses between launches": true,
+  "main encaps: bit-exact, 0 XMEM accesses between launches": true,
+  "main decaps: bit-exact, 0 XMEM accesses between launches": true,
+  "seed0 keygen: bit-exact, 0 XMEM accesses between launches": true,
+  "seed0 encaps: bit-exact, 0 XMEM accesses between launches": true,
+  "seed0 decaps: bit-exact, 0 XMEM accesses between launches": true,
+  "seed1 keygen: bit-exact, 0 XMEM accesses between launches": true,
+  "seed1 encaps: bit-exact, 0 XMEM accesses between launches": true,
+  "seed1 decaps: bit-exact, 0 XMEM accesses between launches": true,
+  "seed2 keygen: bit-exact, 0 XMEM accesses between launches": true,
+  "seed2 encaps: bit-exact, 0 XMEM accesses between launches": true,
+  "seed2 decaps: bit-exact, 0 XMEM accesses between launches": true,
+  "seed3 keygen: bit-exact, 0 XMEM accesses between launches": true,
+  "seed3 encaps: bit-exact, 0 XMEM accesses between launches": true,
+  "seed3 decaps: bit-exact, 0 XMEM accesses between launches": true,
+  "seed4 keygen: bit-exact, 0 XMEM accesses between launches": true,
+  "seed4 encaps: bit-exact, 0 XMEM accesses between launches": true,
+  "seed4 decaps: bit-exact, 0 XMEM accesses between launches": true,
+  "seed5 keygen: bit-exact, 0 XMEM accesses between launches": true,
+  "seed5 encaps: bit-exact, 0 XMEM accesses between launches": true,
+  "seed5 decaps: bit-exact, 0 XMEM accesses between launches": true,
+  "rejection (flipped bit) decaps: bit-exact, 0 XMEM accesses between launches": true,
+  "rejection (c1 = 0) decaps: bit-exact, 0 XMEM accesses between launches": true,
+  "rejection (all-zero ct) decaps: bit-exact, 0 XMEM accesses between launches": true,
+  "keygen: launch trace identical across 7 inputs": true,
+  "encaps: launch trace identical across 7 inputs": true,
+  "decaps: launch trace identical across 10 inputs": true
+ },
+ "runs": {
+  "main keygen": {
+   "op": "keygen",
+   "trace": "20a0f74c80d70322189145d615376eed4c8e0e4f",
+   "cycles": 332826,
+   "launches": 284
+  },
+  "main encaps": {
+   "op": "encaps",
+   "trace": "f7b1340f25094cc6937ee017b3b61964cf6646f7",
+   "cycles": 336441,
+   "launches": 292
+  },
+  "main decaps": {
+   "op": "decaps",
+   "trace": "f487a4e3b44288d4d05a6ce4936fb95c940ac68d",
+   "cycles": 384114,
+   "launches": 320
+  },
+  "seed0 keygen": {
+   "op": "keygen",
+   "trace": "20a0f74c80d70322189145d615376eed4c8e0e4f",
+   "cycles": 332826,
+   "launches": 284
+  },
+  "seed0 encaps": {
+   "op": "encaps",
+   "trace": "f7b1340f25094cc6937ee017b3b61964cf6646f7",
+   "cycles": 336441,
+   "launches": 292
+  },
+  "seed0 decaps": {
+   "op": "decaps",
+   "trace": "f487a4e3b44288d4d05a6ce4936fb95c940ac68d",
+   "cycles": 384114,
+   "launches": 320
+  },
+  "seed1 keygen": {
+   "op": "keygen",
+   "trace": "20a0f74c80d70322189145d615376eed4c8e0e4f",
+   "cycles": 332826,
+   "launches": 284
+  },
+  "seed1 encaps": {
+   "op": "encaps",
+   "trace": "f7b1340f25094cc6937ee017b3b61964cf6646f7",
+   "cycles": 336441,
+   "launches": 292
+  },
+  "seed1 decaps": {
+   "op": "decaps",
+   "trace": "f487a4e3b44288d4d05a6ce4936fb95c940ac68d",
+   "cycles": 384114,
+   "launches": 320
+  },
+  "seed2 keygen": {
+   "op": "keygen",
+   "trace": "20a0f74c80d70322189145d615376eed4c8e0e4f",
+   "cycles": 332826,
+   "launches": 284
+  },
+  "seed2 encaps": {
+   "op": "encaps",
+   "trace": "f7b1340f25094cc6937ee017b3b61964cf6646f7",
+   "cycles": 336441,
+   "launches": 292
+  },
+  "seed2 decaps": {
+   "op": "decaps",
+   "trace": "f487a4e3b44288d4d05a6ce4936fb95c940ac68d",
+   "cycles": 384114,
+   "launches": 320
+  },
+  "seed3 keygen": {
+   "op": "keygen",
+   "trace": "20a0f74c80d70322189145d615376eed4c8e0e4f",
+   "cycles": 332826,
+   "launches": 284
+  },
+  "seed3 encaps": {
+   "op": "encaps",
+   "trace": "f7b1340f25094cc6937ee017b3b61964cf6646f7",
+   "cycles": 336441,
+   "launches": 292
+  },
+  "seed3 decaps": {
+   "op": "decaps",
+   "trace": "f487a4e3b44288d4d05a6ce4936fb95c940ac68d",
+   "cycles": 384114,
+   "launches": 320
+  },
+  "seed4 keygen": {
+   "op": "keygen",
+   "trace": "20a0f74c80d70322189145d615376eed4c8e0e4f",
+   "cycles": 332826,
+   "launches": 284
+  },
+  "seed4 encaps": {
+   "op": "encaps",
+   "trace": "f7b1340f25094cc6937ee017b3b61964cf6646f7",
+   "cycles": 336441,
+   "launches": 292
+  },
+  "seed4 decaps": {
+   "op": "decaps",
+   "trace": "f487a4e3b44288d4d05a6ce4936fb95c940ac68d",
+   "cycles": 384114,
+   "launches": 320
+  },
+  "seed5 keygen": {
+   "op": "keygen",
+   "trace": "20a0f74c80d70322189145d615376eed4c8e0e4f",
+   "cycles": 332826,
+   "launches": 284
+  },
+  "seed5 encaps": {
+   "op": "encaps",
+   "trace": "f7b1340f25094cc6937ee017b3b61964cf6646f7",
+   "cycles": 336441,
+   "launches": 292
+  },
+  "seed5 decaps": {
+   "op": "decaps",
+   "trace": "f487a4e3b44288d4d05a6ce4936fb95c940ac68d",
+   "cycles": 384114,
+   "launches": 320
+  },
+  "rejection (flipped bit) decaps": {
+   "op": "decaps",
+   "trace": "f487a4e3b44288d4d05a6ce4936fb95c940ac68d",
+   "cycles": 384114,
+   "launches": 320
+  },
+  "rejection (c1 = 0) decaps": {
+   "op": "decaps",
+   "trace": "f487a4e3b44288d4d05a6ce4936fb95c940ac68d",
+   "cycles": 384114,
+   "launches": 320
+  },
+  "rejection (all-zero ct) decaps": {
+   "op": "decaps",
+   "trace": "f487a4e3b44288d4d05a6ce4936fb95c940ac68d",
+   "cycles": 384114,
+   "launches": 320
+  }
+ },
+ "kernels": 160
+}

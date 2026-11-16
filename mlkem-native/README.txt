@@ -29,6 +29,6 @@ Requirements
   Python 3.12+ with numpy; gcc
 
 Run
-  ./run_all.sh     (10-15 minutes, CPU only; ends with "NX8 summary: ALL BIT-EXACT"; writes results/run_all.log)
+  ./run_all.sh     (25-30 minutes, CPU only; ends with "NX8 summary: ALL BIT-EXACT"; writes results/run_all.log)
   python ipu/dump_asm.py   (rewrites asm/; checks each file assembles to the words the KEM runs)
   <python with python-pptx> report/make_deck.py      (rebuilds the deck from results/)

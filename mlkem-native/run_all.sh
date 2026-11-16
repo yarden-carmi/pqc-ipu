@@ -1,6 +1,6 @@
 #!/bin/bash
 # ML-KEM-768 on the LEO-NG IPU (NX8): rebuild the reference vectors from mlkem-native (host C) and run every
-# check of the implementation. About 10-15 minutes, CPU only. The output is also written to results/run_all.log.
+# check of the implementation. About 25-30 minutes, CPU only. The output is also written to results/run_all.log.
 set -eo pipefail
 cd "$(dirname "$0")"
 mkdir -p build results vectors
