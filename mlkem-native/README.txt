@@ -15,7 +15,8 @@ Layout
   ipu/mlkem_consts.py      q, zetas, reference NTT
   refgen/                  reference vectors from mlkem-native (C, host compiler)
   vectors/                 the reference vectors used by the tests
-  tests/                   test_keccak, test_nx8_polyops, test_nx8_io (kernels), test_kem_ipu (the KEM)
+  tests/                   test_keccak, test_nx8_polyops, test_nx8_io (kernels), test_kem_ipu (the KEM),
+                           test_asm_e2e (the KEM run from the committed asm/ files, host watched from outside)
   results/                 test results, cycles (kem_ipu_*.json), mlkem-native CI benchmarks, run_all.log
   asm/                     every kernel's IPU assembly exactly as run (<kernel>.asm, 160 kernels) and
                            launches.json: launch order of keygen/encaps/decaps, each kernel's words and CRs
