@@ -1,0 +1,3130 @@
+{
+ "launch_order": {
+  "keygen": [
+   "unpack_d",
+   "unpack_z",
+   "xof00.zero0",
+   "G_kg.absorb15",
+   "permute",
+   "G_kg.extract16",
+   "xof00.zero0",
+   "prfkg0.absorb17",
+   "permute",
+   "prfkg0.extract18",
+   "xof00.zero0",
+   "prfkg1.absorb19",
+   "permute",
+   "prfkg1.extract20",
+   "xof00.zero0",
+   "prfkg2.absorb21",
+   "permute",
+   "prfkg2.extract22",
+   "xof00.zero0",
+   "prfkg3.absorb23",
+   "permute",
+   "prfkg3.extract24",
+   "xof00.zero0",
+   "prfkg4.absorb25",
+   "permute",
+   "prfkg4.extract26",
+   "xof00.zero0",
+   "prfkg5.absorb27",
+   "permute",
+   "prfkg5.extract28",
+   "cbdkg",
+   "xof00.zero0",
+   "xof00.absorb1",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep_first",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A0",
+   "xof00.zero0",
+   "xof01.absorb7",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A1",
+   "xof00.zero0",
+   "xof02.absorb8",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A2",
+   "xof00.zero0",
+   "xof10.absorb9",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A3",
+   "xof00.zero0",
+   "xof11.absorb10",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A4",
+   "xof00.zero0",
+   "xof12.absorb11",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A5",
+   "xof00.zero0",
+   "xof20.absorb12",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A6",
+   "xof00.zero0",
+   "xof21.absorb13",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A7",
+   "xof00.zero0",
+   "xof22.absorb14",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A8",
+   "ntt_se",
+   "mulcache_s",
+   "basemul_As",
+   "add_te",
+   "reduce_t",
+   "reduce_s",
+   "todigt",
+   "f2b12t0",
+   "f2b12t1",
+   "f2b12t2",
+   "todigs",
+   "f2b12s0",
+   "f2b12s1",
+   "f2b12s2",
+   "xof00.zero0",
+   "H_kg.absorb29",
+   "permute",
+   "H_kg.absorb30",
+   "permute",
+   "H_kg.absorb31",
+   "permute",
+   "H_kg.absorb32",
+   "permute",
+   "H_kg.absorb33",
+   "permute",
+   "H_kg.absorb34",
+   "permute",
+   "H_kg.absorb35",
+   "permute",
+   "H_kg.absorb36",
+   "permute",
+   "H_kg.absorb37",
+   "permute",
+   "H_kg.extract38",
+   "packek",
+   "packdk",
+   "ok_kg"
+  ],
+  "encaps": [
+   "unpack_ek",
+   "unpack_m",
+   "xof00.zero0",
+   "H_kg.absorb29",
+   "permute",
+   "H_kg.absorb30",
+   "permute",
+   "H_kg.absorb31",
+   "permute",
+   "H_kg.absorb32",
+   "permute",
+   "H_kg.absorb33",
+   "permute",
+   "H_kg.absorb34",
+   "permute",
+   "H_kg.absorb35",
+   "permute",
+   "H_kg.absorb36",
+   "permute",
+   "H_kg.absorb37",
+   "permute",
+   "H_en.extract39",
+   "xof00.zero0",
+   "G_en.absorb40",
+   "permute",
+   "G_en.extract41",
+   "decodeten",
+   "centreten",
+   "xof00.zero0",
+   "xof00.absorb1",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep_first",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A0",
+   "xof00.zero0",
+   "xof01.absorb7",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A1",
+   "xof00.zero0",
+   "xof02.absorb8",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A2",
+   "xof00.zero0",
+   "xof10.absorb9",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A3",
+   "xof00.zero0",
+   "xof11.absorb10",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A4",
+   "xof00.zero0",
+   "xof12.absorb11",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A5",
+   "xof00.zero0",
+   "xof20.absorb12",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A6",
+   "xof00.zero0",
+   "xof21.absorb13",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A7",
+   "xof00.zero0",
+   "xof22.absorb14",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A8",
+   "ek_range_check",
+   "xof00.zero0",
+   "prfen0.absorb42",
+   "permute",
+   "prfkg0.extract18",
+   "xof00.zero0",
+   "prfen1.absorb43",
+   "permute",
+   "prfkg1.extract20",
+   "xof00.zero0",
+   "prfen2.absorb44",
+   "permute",
+   "prfkg2.extract22",
+   "xof00.zero0",
+   "prfen3.absorb45",
+   "permute",
+   "prfkg3.extract24",
+   "xof00.zero0",
+   "prfen4.absorb46",
+   "permute",
+   "prfkg4.extract26",
+   "xof00.zero0",
+   "prfen5.absorb47",
+   "permute",
+   "prfkg5.extract28",
+   "xof00.zero0",
+   "prfen6.absorb48",
+   "permute",
+   "prfen6.extract49",
+   "cbden",
+   "ntt_ren",
+   "mulcache_ren",
+   "basemul_uen",
+   "basemul_ven",
+   "intt_uven",
+   "decompress_muen",
+   "add_encen",
+   "reduce_uven",
+   "compress_uen",
+   "compress_ven",
+   "todig_uen",
+   "f2b10en0",
+   "f2b10en1",
+   "f2b10en2",
+   "f2b4en",
+   "packct",
+   "packss_en",
+   "ok_en"
+  ],
+  "decaps": [
+   "unpack_dk",
+   "unpack_ct",
+   "decodes",
+   "centres",
+   "decode_u",
+   "decode_v",
+   "decompress_u",
+   "decompress_v",
+   "ntt_u",
+   "mulcache_u",
+   "basemul_w",
+   "intt_w",
+   "sub_w",
+   "reduce_w",
+   "compress_m",
+   "xof00.zero0",
+   "G_de.absorb50",
+   "permute",
+   "G_en.extract41",
+   "xof00.zero0",
+   "J_de.absorb51",
+   "permute",
+   "J_de.absorb52",
+   "permute",
+   "J_de.absorb53",
+   "permute",
+   "J_de.absorb54",
+   "permute",
+   "J_de.absorb55",
+   "permute",
+   "J_de.absorb56",
+   "permute",
+   "J_de.absorb57",
+   "permute",
+   "J_de.absorb58",
+   "permute",
+   "J_de.absorb59",
+   "permute",
+   "J_de.extract60",
+   "decodetde",
+   "centretde",
+   "xof00.zero0",
+   "xof00.absorb1",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep_first",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A0",
+   "xof00.zero0",
+   "xof01.absorb7",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A1",
+   "xof00.zero0",
+   "xof02.absorb8",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A2",
+   "xof00.zero0",
+   "xof10.absorb9",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A3",
+   "xof00.zero0",
+   "xof11.absorb10",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A4",
+   "xof00.zero0",
+   "xof12.absorb11",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A5",
+   "xof00.zero0",
+   "xof20.absorb12",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A6",
+   "xof00.zero0",
+   "xof21.absorb13",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A7",
+   "xof00.zero0",
+   "xof22.absorb14",
+   "permute",
+   "xof00.extract2",
+   "permute",
+   "xof00.extract3",
+   "permute",
+   "xof00.extract4",
+   "permute",
+   "xof00.extract5",
+   "permute",
+   "xof00.extract6",
+   "parse",
+   "prep",
+   "stage0",
+   "stage1",
+   "stage2",
+   "stage3",
+   "stage4",
+   "stage5",
+   "stage6",
+   "stage7",
+   "stage8",
+   "centre_A8",
+   "xof00.zero0",
+   "prfen0.absorb42",
+   "permute",
+   "prfkg0.extract18",
+   "xof00.zero0",
+   "prfen1.absorb43",
+   "permute",
+   "prfkg1.extract20",
+   "xof00.zero0",
+   "prfen2.absorb44",
+   "permute",
+   "prfkg2.extract22",
+   "xof00.zero0",
+   "prfen3.absorb45",
+   "permute",
+   "prfkg3.extract24",
+   "xof00.zero0",
+   "prfen4.absorb46",
+   "permute",
+   "prfkg4.extract26",
+   "xof00.zero0",
+   "prfen5.absorb47",
+   "permute",
+   "prfkg5.extract28",
+   "xof00.zero0",
+   "prfen6.absorb48",
+   "permute",
+   "prfen6.extract49",
+   "cbdde",
+   "ntt_rde",
+   "mulcache_rde",
+   "basemul_ude",
+   "basemul_vde",
+   "intt_uvde",
+   "decompress_mude",
+   "add_encde",
+   "reduce_uvde",
+   "compress_ude",
+   "compress_vde",
+   "xof00.zero0",
+   "H_kg.absorb29",
+   "permute",
+   "H_kg.absorb30",
+   "permute",
+   "H_kg.absorb31",
+   "permute",
+   "H_kg.absorb32",
+   "permute",
+   "H_kg.absorb33",
+   "permute",
+   "H_kg.absorb34",
+   "permute",
+   "H_kg.absorb35",
+   "permute",
+   "H_kg.absorb36",
+   "permute",
+   "H_kg.absorb37",
+   "permute",
+   "H_de.extract61",
+   "dk_hash_check",
+   "fo_select",
+   "packss_de",
+   "ok_de"
+  ]
+ },
+ "kernels": {
+  "G_de.absorb50": {
+   "category": "keccak",
+   "words": 18,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000100",
+    "CR4": "0x00000b0b",
+    "CR12": "0x00000200",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "G_en.absorb40": {
+   "category": "keccak",
+   "words": 18,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x00000784",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "G_en.extract41": {
+   "category": "keccak",
+   "words": 12,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x00000788",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "G_kg.absorb15": {
+   "category": "keccak",
+   "words": 15,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x000005f0",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "G_kg.extract16": {
+   "category": "keccak",
+   "words": 12,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x000005f5",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "H_de.extract61": {
+   "category": "keccak",
+   "words": 8,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x00000cb0",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "H_en.extract39": {
+   "category": "keccak",
+   "words": 8,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x00000781",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "H_kg.absorb29": {
+   "category": "keccak",
+   "words": 31,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x00000759",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "H_kg.absorb30": {
+   "category": "keccak",
+   "words": 31,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x0000075c",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "H_kg.absorb31": {
+   "category": "keccak",
+   "words": 31,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x0000075f",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "H_kg.absorb32": {
+   "category": "keccak",
+   "words": 31,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x00000762",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "H_kg.absorb33": {
+   "category": "keccak",
+   "words": 31,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x00000765",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "H_kg.absorb34": {
+   "category": "keccak",
+   "words": 31,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x00000768",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "H_kg.absorb35": {
+   "category": "keccak",
+   "words": 31,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x0000076b",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "H_kg.absorb36": {
+   "category": "keccak",
+   "words": 31,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x0000076e",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "H_kg.absorb37": {
+   "category": "keccak",
+   "words": 26,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x00000771",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "H_kg.extract38": {
+   "category": "keccak",
+   "words": 8,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x00000776",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "J_de.absorb51": {
+   "category": "keccak",
+   "words": 31,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x00000b0f",
+    "CR12": "0x00000300",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "J_de.absorb52": {
+   "category": "keccak",
+   "words": 31,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000300",
+    "CR4": "0x00000b12",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "J_de.absorb53": {
+   "category": "keccak",
+   "words": 31,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000300",
+    "CR4": "0x00000b15",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "J_de.absorb54": {
+   "category": "keccak",
+   "words": 31,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000300",
+    "CR4": "0x00000b18",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "J_de.absorb55": {
+   "category": "keccak",
+   "words": 31,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000300",
+    "CR4": "0x00000b1b",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "J_de.absorb56": {
+   "category": "keccak",
+   "words": 31,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000300",
+    "CR4": "0x00000b1e",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "J_de.absorb57": {
+   "category": "keccak",
+   "words": 31,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000300",
+    "CR4": "0x00000b21",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "J_de.absorb58": {
+   "category": "keccak",
+   "words": 31,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000300",
+    "CR4": "0x00000b24",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "J_de.absorb59": {
+   "category": "keccak",
+   "words": 16,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000300",
+    "CR4": "0x00000b27",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "J_de.extract60": {
+   "category": "keccak",
+   "words": 8,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x00000b2c",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "add_encde": {
+   "category": "poly",
+   "words": 55,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x00000c8f",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "add_encen": {
+   "category": "poly",
+   "words": 55,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x0000091a",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "add_te": {
+   "category": "poly",
+   "words": 39,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x000006db",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "basemul_As": {
+   "category": "poly",
+   "words": 151,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x000006cd",
+    "CR5": "0x0011730f",
+    "CR6": "0x00116b01",
+    "CR7": "0x00116205",
+    "CR8": "0x00119620",
+    "CR9": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "basemul_ude": {
+   "category": "poly",
+   "words": 151,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x00000be0",
+    "CR5": "0x0011730f",
+    "CR6": "0x00116b01",
+    "CR7": "0x00116205",
+    "CR8": "0x00119620",
+    "CR9": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "basemul_uen": {
+   "category": "poly",
+   "words": 151,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x0000086b",
+    "CR5": "0x0011730f",
+    "CR6": "0x00116b01",
+    "CR7": "0x00116205",
+    "CR8": "0x00119620",
+    "CR9": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "basemul_vde": {
+   "category": "poly",
+   "words": 144,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x00000bee",
+    "CR5": "0x0011730f",
+    "CR6": "0x00116b01",
+    "CR7": "0x00116205",
+    "CR8": "0x00119620",
+    "CR9": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "basemul_ven": {
+   "category": "poly",
+   "words": 144,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x00000879",
+    "CR5": "0x0011730f",
+    "CR6": "0x00116b01",
+    "CR7": "0x00116205",
+    "CR8": "0x00119620",
+    "CR9": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "basemul_w": {
+   "category": "poly",
+   "words": 144,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x00000a57",
+    "CR5": "0x0011730f",
+    "CR6": "0x00116b01",
+    "CR7": "0x00116205",
+    "CR8": "0x00119620",
+    "CR9": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "cbdde": {
+   "category": "sampling",
+   "words": 142,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000200",
+    "CR4": "0x00000b3b",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "cbden": {
+   "category": "sampling",
+   "words": 142,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000200",
+    "CR4": "0x000007c6",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "cbdkg": {
+   "category": "sampling",
+   "words": 142,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000200",
+    "CR4": "0x00000628",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "centre_A0": {
+   "category": "sampling",
+   "words": 37,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000100",
+    "CR4": "0x00000577",
+    "CR5": "0x0011730f",
+    "CR6": "0x00116b01",
+    "CR7": "0x00119620",
+    "CR8": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "centre_A1": {
+   "category": "sampling",
+   "words": 37,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000100",
+    "CR4": "0x00000585",
+    "CR5": "0x0011730f",
+    "CR6": "0x00116b01",
+    "CR7": "0x00119620",
+    "CR8": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "centre_A2": {
+   "category": "sampling",
+   "words": 37,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000100",
+    "CR4": "0x00000593",
+    "CR5": "0x0011730f",
+    "CR6": "0x00116b01",
+    "CR7": "0x00119620",
+    "CR8": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "centre_A3": {
+   "category": "sampling",
+   "words": 37,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000100",
+    "CR4": "0x000005a1",
+    "CR5": "0x0011730f",
+    "CR6": "0x00116b01",
+    "CR7": "0x00119620",
+    "CR8": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "centre_A4": {
+   "category": "sampling",
+   "words": 37,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000100",
+    "CR4": "0x000005af",
+    "CR5": "0x0011730f",
+    "CR6": "0x00116b01",
+    "CR7": "0x00119620",
+    "CR8": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "centre_A5": {
+   "category": "sampling",
+   "words": 37,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000100",
+    "CR4": "0x000005bd",
+    "CR5": "0x0011730f",
+    "CR6": "0x00116b01",
+    "CR7": "0x00119620",
+    "CR8": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "centre_A6": {
+   "category": "sampling",
+   "words": 37,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000100",
+    "CR4": "0x000005cb",
+    "CR5": "0x0011730f",
+    "CR6": "0x00116b01",
+    "CR7": "0x00119620",
+    "CR8": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "centre_A7": {
+   "category": "sampling",
+   "words": 37,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000100",
+    "CR4": "0x000005d9",
+    "CR5": "0x0011730f",
+    "CR6": "0x00116b01",
+    "CR7": "0x00119620",
+    "CR8": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "centre_A8": {
+   "category": "sampling",
+   "words": 37,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000100",
+    "CR4": "0x000005e7",
+    "CR5": "0x0011730f",
+    "CR6": "0x00116b01",
+    "CR7": "0x00119620",
+    "CR8": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "centres": {
+   "category": "encode",
+   "words": 36,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x000009a2",
+    "CR5": "0x0011730f",
+    "CR6": "0x00116b01",
+    "CR7": "0x00119620",
+    "CR8": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "centretde": {
+   "category": "encode",
+   "words": 36,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x00000b32",
+    "CR5": "0x0011730f",
+    "CR6": "0x00116b01",
+    "CR7": "0x00119620",
+    "CR8": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "centreten": {
+   "category": "encode",
+   "words": 36,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x0000078e",
+    "CR5": "0x0011730f",
+    "CR6": "0x00116b01",
+    "CR7": "0x00119620",
+    "CR8": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "compress_m": {
+   "category": "poly",
+   "words": 21,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x00000b01",
+    "CR5": "0x0011740f",
+    "CR6": "0x00116c01",
+    "CR7": "0x00119620",
+    "CR8": "0x00118000",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "compress_ude": {
+   "category": "poly",
+   "words": 71,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x00000c9a",
+    "CR5": "0x00117d0f",
+    "CR6": "0x00117501",
+    "CR7": "0x00119620",
+    "CR8": "0x00118900",
+    "CR9": "0x00118a28",
+    "CR10": "0x0011730f",
+    "CR11": "0x00116b01",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "compress_uen": {
+   "category": "poly",
+   "words": 71,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x00000925",
+    "CR5": "0x00117d0f",
+    "CR6": "0x00117501",
+    "CR7": "0x00119620",
+    "CR8": "0x00118900",
+    "CR9": "0x00118a28",
+    "CR10": "0x0011730f",
+    "CR11": "0x00116b01",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "compress_vde": {
+   "category": "poly",
+   "words": 25,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x00000ca6",
+    "CR5": "0x0011770f",
+    "CR6": "0x00116f01",
+    "CR7": "0x00116605",
+    "CR8": "0x00119620",
+    "CR9": "0x00118238",
+    "CR10": "0x00118300",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "compress_ven": {
+   "category": "poly",
+   "words": 25,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x00000931",
+    "CR5": "0x0011770f",
+    "CR6": "0x00116f01",
+    "CR7": "0x00116605",
+    "CR8": "0x00119620",
+    "CR9": "0x00118238",
+    "CR10": "0x00118300",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "decode_u": {
+   "category": "encode",
+   "words": 280,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000300",
+    "CR4": "0x000009ab",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "decode_v": {
+   "category": "encode",
+   "words": 142,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000300",
+    "CR4": "0x000009ae",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "decodes": {
+   "category": "encode",
+   "words": 145,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000200",
+    "CR4": "0x0000099f",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "decodetde": {
+   "category": "encode",
+   "words": 145,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000200",
+    "CR4": "0x00000b2f",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "decodeten": {
+   "category": "encode",
+   "words": 145,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000200",
+    "CR4": "0x0000078b",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "decompress_mude": {
+   "category": "poly",
+   "words": 17,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x00000c8d",
+    "CR5": "0x00118928",
+    "CR6": "0x00117e00",
+    "CR7": "0x00117d00",
+    "CR8": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "decompress_muen": {
+   "category": "poly",
+   "words": 17,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000100",
+    "CR4": "0x00000918",
+    "CR5": "0x00118928",
+    "CR6": "0x00117e00",
+    "CR7": "0x00117d00",
+    "CR8": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "decompress_u": {
+   "category": "poly",
+   "words": 25,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x000009b1",
+    "CR5": "0x00118028",
+    "CR6": "0x00117500",
+    "CR7": "0x00117400",
+    "CR8": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "decompress_v": {
+   "category": "poly",
+   "words": 17,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x000009b3",
+    "CR5": "0x00118628",
+    "CR6": "0x00117b00",
+    "CR7": "0x00117a00",
+    "CR8": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "dk_hash_check": {
+   "category": "encode",
+   "words": 20,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x00000cb3",
+    "CR5": "0x00117600",
+    "CR6": "0x00117d3f",
+    "CR7": "0x00117610",
+    "CR8": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "ek_range_check": {
+   "category": "encode",
+   "words": 52,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000100",
+    "CR4": "0x00000797",
+    "CR5": "0x00117300",
+    "CR6": "0x00117d10",
+    "CR7": "0x00117200",
+    "CR8": "0x00119620",
+    "CR9": "0x00117500",
+    "CR10": "0x00117d3f",
+    "CR11": "0x00117628",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "f2b10en0": {
+   "category": "encode",
+   "words": 222,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000300",
+    "CR4": "0x0000093d",
+    "CR5": "0x00117e3f",
+    "CR6": "0x00117720",
+    "CR7": "0x00119720",
+    "CR8": "0x00117d3f",
+    "CR9": "0x00117600",
+    "CR10": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "f2b10en1": {
+   "category": "encode",
+   "words": 222,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000300",
+    "CR4": "0x00000957",
+    "CR5": "0x00117e3f",
+    "CR6": "0x00117720",
+    "CR7": "0x00119720",
+    "CR8": "0x00117d3f",
+    "CR9": "0x00117600",
+    "CR10": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "f2b10en2": {
+   "category": "encode",
+   "words": 222,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000300",
+    "CR4": "0x00000971",
+    "CR5": "0x00117e3f",
+    "CR6": "0x00117720",
+    "CR7": "0x00119720",
+    "CR8": "0x00117d3f",
+    "CR9": "0x00117600",
+    "CR10": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "f2b12s0": {
+   "category": "encode",
+   "words": 124,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000200",
+    "CR4": "0x00000726",
+    "CR5": "0x00117e3f",
+    "CR6": "0x00117720",
+    "CR7": "0x00119720",
+    "CR8": "0x00117d3f",
+    "CR9": "0x00117600",
+    "CR10": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "f2b12s1": {
+   "category": "encode",
+   "words": 124,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000200",
+    "CR4": "0x00000737",
+    "CR5": "0x00117e3f",
+    "CR6": "0x00117720",
+    "CR7": "0x00119720",
+    "CR8": "0x00117d3f",
+    "CR9": "0x00117600",
+    "CR10": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "f2b12s2": {
+   "category": "encode",
+   "words": 124,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000200",
+    "CR4": "0x00000748",
+    "CR5": "0x00117e3f",
+    "CR6": "0x00117720",
+    "CR7": "0x00119720",
+    "CR8": "0x00117d3f",
+    "CR9": "0x00117600",
+    "CR10": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "f2b12t0": {
+   "category": "encode",
+   "words": 124,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000200",
+    "CR4": "0x000006f1",
+    "CR5": "0x00117e3f",
+    "CR6": "0x00117720",
+    "CR7": "0x00119720",
+    "CR8": "0x00117d3f",
+    "CR9": "0x00117600",
+    "CR10": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "f2b12t1": {
+   "category": "encode",
+   "words": 124,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000200",
+    "CR4": "0x00000702",
+    "CR5": "0x00117e3f",
+    "CR6": "0x00117720",
+    "CR7": "0x00119720",
+    "CR8": "0x00117d3f",
+    "CR9": "0x00117600",
+    "CR10": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "f2b12t2": {
+   "category": "encode",
+   "words": 124,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000200",
+    "CR4": "0x00000713",
+    "CR5": "0x00117e3f",
+    "CR6": "0x00117720",
+    "CR7": "0x00119720",
+    "CR8": "0x00117d3f",
+    "CR9": "0x00117600",
+    "CR10": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "f2b4en": {
+   "category": "encode",
+   "words": 54,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000300",
+    "CR4": "0x0000098b",
+    "CR5": "0x00117e3f",
+    "CR6": "0x00117720",
+    "CR7": "0x00119720",
+    "CR8": "0x00117d3f",
+    "CR9": "0x00117600",
+    "CR10": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "fo_select": {
+   "category": "fo",
+   "words": 94,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR3": "0x00000100",
+    "CR4": "0x00000cba",
+    "CR5": "0x0011883f",
+    "CR6": "0x00118130",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "intt_uvde": {
+   "category": "poly",
+   "words": 450,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x00000bfc",
+    "CR5": "0x00119620",
+    "CR6": "0x00118a28",
+    "CR7": "0x0011773f",
+    "CR8": "0x0011703b",
+    "CR9": "0x00118328",
+    "CR10": "0x00117d3f",
+    "CR11": "0x0011720f",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "intt_uven": {
+   "category": "poly",
+   "words": 450,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x00000887",
+    "CR5": "0x00119620",
+    "CR6": "0x00118a28",
+    "CR7": "0x0011773f",
+    "CR8": "0x0011703b",
+    "CR9": "0x00118328",
+    "CR10": "0x00117d3f",
+    "CR11": "0x0011720f",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "intt_w": {
+   "category": "poly",
+   "words": 444,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x00000a65",
+    "CR5": "0x00119620",
+    "CR6": "0x00118a28",
+    "CR7": "0x0011773f",
+    "CR8": "0x0011703b",
+    "CR9": "0x00118328",
+    "CR10": "0x00117d3f",
+    "CR11": "0x0011720f",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "mulcache_rde": {
+   "category": "poly",
+   "words": 126,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x00000bc7",
+    "CR5": "0x00119620",
+    "CR6": "0x00118a28",
+    "CR7": "0x0011730f",
+    "CR8": "0x00116b01",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "mulcache_ren": {
+   "category": "poly",
+   "words": 126,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x00000852",
+    "CR5": "0x00119620",
+    "CR6": "0x00118a28",
+    "CR7": "0x0011730f",
+    "CR8": "0x00116b01",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "mulcache_s": {
+   "category": "poly",
+   "words": 126,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x000006b4",
+    "CR5": "0x00119620",
+    "CR6": "0x00118a28",
+    "CR7": "0x0011730f",
+    "CR8": "0x00116b01",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "mulcache_u": {
+   "category": "poly",
+   "words": 126,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x00000a3e",
+    "CR5": "0x00119620",
+    "CR6": "0x00118a28",
+    "CR7": "0x0011730f",
+    "CR8": "0x00116b01",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "ntt_rde": {
+   "category": "poly",
+   "words": 408,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x00000b3e",
+    "CR5": "0x00117d3b",
+    "CR6": "0x00119620",
+    "CR7": "0x00118924",
+    "CR8": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "ntt_ren": {
+   "category": "poly",
+   "words": 408,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x000007c9",
+    "CR5": "0x00117d3b",
+    "CR6": "0x00119620",
+    "CR7": "0x00118924",
+    "CR8": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "ntt_se": {
+   "category": "poly",
+   "words": 408,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x0000062b",
+    "CR5": "0x00117d3b",
+    "CR6": "0x00119620",
+    "CR7": "0x00118924",
+    "CR8": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "ntt_u": {
+   "category": "poly",
+   "words": 430,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x000009b5",
+    "CR5": "0x0011730f",
+    "CR6": "0x00117d3b",
+    "CR7": "0x00117212",
+    "CR8": "0x00119620",
+    "CR9": "0x00118924",
+    "CR10": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "ok_de": {
+   "category": "encode",
+   "words": 7,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000300",
+    "CR4": "0x00000cd2",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "ok_en": {
+   "category": "encode",
+   "words": 16,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000300",
+    "CR4": "0x0000099d",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "ok_kg": {
+   "category": "encode",
+   "words": 35,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000300",
+    "CR4": "0x0000077f",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "packct": {
+   "category": "encode",
+   "words": 144,
+   "crs": {
+    "CR2": "0x00000300",
+    "CR4": "0x00000997",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "packdk": {
+   "category": "encode",
+   "words": 144,
+   "crs": {
+    "CR2": "0x00000200",
+    "CR3": "0x00000300",
+    "CR4": "0x0000077c",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "packek": {
+   "category": "encode",
+   "words": 144,
+   "crs": {
+    "CR2": "0x00000200",
+    "CR3": "0x00000300",
+    "CR4": "0x00000779",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "packss_de": {
+   "category": "encode",
+   "words": 132,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000300",
+    "CR4": "0x00000ccf",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "packss_en": {
+   "category": "encode",
+   "words": 132,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000300",
+    "CR4": "0x0000099a",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "parse": {
+   "category": "sampling",
+   "words": 145,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x00000546",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "permute": {
+   "category": "keccak",
+   "words": 207,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000400",
+    "CR15": "0x01181080"
+   }
+  },
+  "prep": {
+   "category": "sampling",
+   "words": 256,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x00000557",
+    "CR5": "0x00117300",
+    "CR6": "0x00117d10",
+    "CR7": "0x00117200",
+    "CR8": "0x00119620",
+    "CR9": "0x00118800",
+    "CR10": "0x00117600",
+    "CR11": "0x00117d00",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "prep_first": {
+   "category": "sampling",
+   "words": 255,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x00000549",
+    "CR5": "0x00117300",
+    "CR6": "0x00117d10",
+    "CR7": "0x00117200",
+    "CR8": "0x00119620",
+    "CR9": "0x00118800",
+    "CR10": "0x00117600",
+    "CR11": "0x00117d00",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "prfen0.absorb42": {
+   "category": "keccak",
+   "words": 16,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x000007a0",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "prfen1.absorb43": {
+   "category": "keccak",
+   "words": 16,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x000007a5",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "prfen2.absorb44": {
+   "category": "keccak",
+   "words": 16,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x000007aa",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "prfen3.absorb45": {
+   "category": "keccak",
+   "words": 16,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x000007af",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "prfen4.absorb46": {
+   "category": "keccak",
+   "words": 16,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x000007b4",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "prfen5.absorb47": {
+   "category": "keccak",
+   "words": 16,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x000007b9",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "prfen6.absorb48": {
+   "category": "keccak",
+   "words": 16,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x000007be",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "prfen6.extract49": {
+   "category": "keccak",
+   "words": 20,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x000007c3",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "prfkg0.absorb17": {
+   "category": "keccak",
+   "words": 16,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x000005f8",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "prfkg0.extract18": {
+   "category": "keccak",
+   "words": 20,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x000005fd",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "prfkg1.absorb19": {
+   "category": "keccak",
+   "words": 16,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x00000600",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "prfkg1.extract20": {
+   "category": "keccak",
+   "words": 20,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x00000605",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "prfkg2.absorb21": {
+   "category": "keccak",
+   "words": 16,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x00000608",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "prfkg2.extract22": {
+   "category": "keccak",
+   "words": 20,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x0000060d",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "prfkg3.absorb23": {
+   "category": "keccak",
+   "words": 16,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x00000610",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "prfkg3.extract24": {
+   "category": "keccak",
+   "words": 20,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x00000615",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "prfkg4.absorb25": {
+   "category": "keccak",
+   "words": 16,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x00000618",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "prfkg4.extract26": {
+   "category": "keccak",
+   "words": 20,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x0000061d",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "prfkg5.absorb27": {
+   "category": "keccak",
+   "words": 16,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x00000620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "prfkg5.extract28": {
+   "category": "keccak",
+   "words": 20,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x00000625",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "reduce_s": {
+   "category": "poly",
+   "words": 36,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x000006e6",
+    "CR5": "0x0011730f",
+    "CR6": "0x00116b01",
+    "CR7": "0x00117d3f",
+    "CR8": "0x0011763b",
+    "CR9": "0x00119620",
+    "CR10": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "reduce_t": {
+   "category": "poly",
+   "words": 36,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x000006dd",
+    "CR5": "0x0011730f",
+    "CR6": "0x00116b01",
+    "CR7": "0x00117d3f",
+    "CR8": "0x0011763b",
+    "CR9": "0x00119620",
+    "CR10": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "reduce_uvde": {
+   "category": "poly",
+   "words": 40,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x00000c91",
+    "CR5": "0x0011730f",
+    "CR6": "0x00116b01",
+    "CR7": "0x00116205",
+    "CR8": "0x00117d3f",
+    "CR9": "0x0011763b",
+    "CR10": "0x00119620",
+    "CR11": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "reduce_uven": {
+   "category": "poly",
+   "words": 40,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x0000091c",
+    "CR5": "0x0011730f",
+    "CR6": "0x00116b01",
+    "CR7": "0x00116205",
+    "CR8": "0x00117d3f",
+    "CR9": "0x0011763b",
+    "CR10": "0x00119620",
+    "CR11": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "reduce_w": {
+   "category": "poly",
+   "words": 31,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x00000af8",
+    "CR5": "0x0011730f",
+    "CR6": "0x00116b01",
+    "CR7": "0x00117d3f",
+    "CR8": "0x0011763b",
+    "CR9": "0x00119620",
+    "CR10": "0x00118a28",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "stage0": {
+   "category": "sampling",
+   "words": 173,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x00000565",
+    "CR5": "0x00117e00",
+    "CR6": "0x00117d00",
+    "CR7": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "stage1": {
+   "category": "sampling",
+   "words": 173,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x00000567",
+    "CR5": "0x00117e00",
+    "CR6": "0x00117d00",
+    "CR7": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "stage2": {
+   "category": "sampling",
+   "words": 173,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x00000569",
+    "CR5": "0x00117e00",
+    "CR6": "0x00117d00",
+    "CR7": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "stage3": {
+   "category": "sampling",
+   "words": 173,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x0000056b",
+    "CR5": "0x00117e00",
+    "CR6": "0x00117d00",
+    "CR7": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "stage4": {
+   "category": "sampling",
+   "words": 173,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x0000056d",
+    "CR5": "0x00117e00",
+    "CR6": "0x00117d00",
+    "CR7": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "stage5": {
+   "category": "sampling",
+   "words": 173,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x0000056f",
+    "CR5": "0x00117e00",
+    "CR6": "0x00117d00",
+    "CR7": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "stage6": {
+   "category": "sampling",
+   "words": 173,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x00000571",
+    "CR5": "0x00117e00",
+    "CR6": "0x00117d00",
+    "CR7": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "stage7": {
+   "category": "sampling",
+   "words": 149,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x00000573",
+    "CR5": "0x00117e00",
+    "CR6": "0x00117d00",
+    "CR7": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "stage8": {
+   "category": "sampling",
+   "words": 103,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x00000575",
+    "CR5": "0x00117e00",
+    "CR6": "0x00117d00",
+    "CR7": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "sub_w": {
+   "category": "poly",
+   "words": 15,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x00000af6",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "todig_uen": {
+   "category": "encode",
+   "words": 26,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x0000093b",
+    "CR5": "0x00117700",
+    "CR6": "0x00117e00",
+    "CR7": "0x00117600",
+    "CR8": "0x00119620",
+    "CR9": "0x00118700",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "todigs": {
+   "category": "encode",
+   "words": 26,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x00000724",
+    "CR5": "0x00117700",
+    "CR6": "0x00117e00",
+    "CR7": "0x00117600",
+    "CR8": "0x00119620",
+    "CR9": "0x00118700",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "todigt": {
+   "category": "encode",
+   "words": 26,
+   "crs": {
+    "CR2": "0x00000000",
+    "CR4": "0x000006ef",
+    "CR5": "0x00117700",
+    "CR6": "0x00117e00",
+    "CR7": "0x00117600",
+    "CR8": "0x00119620",
+    "CR9": "0x00118700",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "unpack_ct": {
+   "category": "encode",
+   "words": 226,
+   "crs": {
+    "CR2": "0x00000300",
+    "CR4": "0x00000528",
+    "CR5": "0x00117e3f",
+    "CR6": "0x00117720",
+    "CR7": "0x00119720",
+    "CR8": "0x00117d3f",
+    "CR9": "0x00117600",
+    "CR10": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "unpack_d": {
+   "category": "encode",
+   "words": 220,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000300",
+    "CR4": "0x00000500",
+    "CR5": "0x00117e3f",
+    "CR6": "0x00117720",
+    "CR7": "0x00119720",
+    "CR8": "0x00117d3f",
+    "CR9": "0x00117600",
+    "CR10": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "unpack_dk": {
+   "category": "encode",
+   "words": 226,
+   "crs": {
+    "CR2": "0x00000200",
+    "CR3": "0x00000300",
+    "CR4": "0x00000520",
+    "CR5": "0x00117e3f",
+    "CR6": "0x00117720",
+    "CR7": "0x00119720",
+    "CR8": "0x00117d3f",
+    "CR9": "0x00117600",
+    "CR10": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "unpack_ek": {
+   "category": "encode",
+   "words": 226,
+   "crs": {
+    "CR2": "0x00000200",
+    "CR3": "0x00000300",
+    "CR4": "0x00000518",
+    "CR5": "0x00117e3f",
+    "CR6": "0x00117720",
+    "CR7": "0x00119720",
+    "CR8": "0x00117d3f",
+    "CR9": "0x00117600",
+    "CR10": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "unpack_m": {
+   "category": "encode",
+   "words": 220,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000300",
+    "CR4": "0x00000510",
+    "CR5": "0x00117e3f",
+    "CR6": "0x00117720",
+    "CR7": "0x00119720",
+    "CR8": "0x00117d3f",
+    "CR9": "0x00117600",
+    "CR10": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "unpack_z": {
+   "category": "encode",
+   "words": 220,
+   "crs": {
+    "CR2": "0x00000200",
+    "CR3": "0x00000300",
+    "CR4": "0x00000508",
+    "CR5": "0x00117e3f",
+    "CR6": "0x00117720",
+    "CR7": "0x00119720",
+    "CR8": "0x00117d3f",
+    "CR9": "0x00117600",
+    "CR10": "0x00119620",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "xof00.absorb1": {
+   "category": "keccak",
+   "words": 16,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x00000532",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "xof00.extract2": {
+   "category": "keccak",
+   "words": 25,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x00000537",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "xof00.extract3": {
+   "category": "keccak",
+   "words": 26,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x0000053a",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "xof00.extract4": {
+   "category": "keccak",
+   "words": 25,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x0000053d",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "xof00.extract5": {
+   "category": "keccak",
+   "words": 26,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x00000540",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "xof00.extract6": {
+   "category": "keccak",
+   "words": 25,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x00000543",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "xof00.zero0": {
+   "category": "keccak",
+   "words": 18,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR4": "0x00000530",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "xof01.absorb7": {
+   "category": "keccak",
+   "words": 16,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x00000580",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "xof02.absorb8": {
+   "category": "keccak",
+   "words": 16,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x0000058e",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "xof10.absorb9": {
+   "category": "keccak",
+   "words": 16,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x0000059c",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "xof11.absorb10": {
+   "category": "keccak",
+   "words": 16,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x000005aa",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "xof12.absorb11": {
+   "category": "keccak",
+   "words": 16,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x000005b8",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "xof20.absorb12": {
+   "category": "keccak",
+   "words": 16,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x000005c6",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "xof21.absorb13": {
+   "category": "keccak",
+   "words": 16,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x000005d4",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  },
+  "xof22.absorb14": {
+   "category": "keccak",
+   "words": 16,
+   "crs": {
+    "CR2": "0x00000100",
+    "CR3": "0x00000200",
+    "CR4": "0x000005e2",
+    "CR13": "0x01481080",
+    "CR14": "0x00181001",
+    "CR15": "0x01181080"
+   }
+  }
+ }
+}
