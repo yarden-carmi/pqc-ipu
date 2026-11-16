@@ -1,0 +1,114 @@
+{
+ "results": {
+  "bytes -> bits (BytesToBits)": true,
+  "bits -> fields d=12 (ByteDecode)": true,
+  "bits -> fields d=10 (ByteDecode)": true,
+  "bits -> fields d=4 (ByteDecode)": true,
+  "bits -> bytes (pack)": true,
+  "CBD eta=2 from PRF bits": true,
+  "CBD eta=3 from PRF bits": true,
+  "fields d=12 -> bits (ByteEncode)": true,
+  "fields d=10 -> bits (ByteEncode)": true,
+  "fields d=4 -> bits (ByteEncode)": true,
+  "SHA3-256/512, SHAKE128/256 on bit rows": true,
+  "SampleNTT, fixed 5-block schedule": true
+ },
+ "stats": {
+  "bytes_to_bits": {
+   "cycles": 1.734375,
+   "words": 226,
+   "mult_busy": 0.9369369369369369,
+   "lane_occ": 0.3963963963963964,
+   "xmem_rd": 0.3359375,
+   "xmem_wr": 0.125
+  },
+  "bits_to_fields d=12": {
+   "cycles": 1.091796875,
+   "words": 145,
+   "mult_busy": 0.9230769230769231,
+   "lane_occ": 0.9230769230769231,
+   "xmem_rd": 0.1171875,
+   "xmem_wr": 0.015625
+  },
+  "bits_to_fields d=10": {
+   "cycles": 1.080078125,
+   "words": 280,
+   "mult_busy": 0.9330922242314648,
+   "lane_occ": 0.9330922242314648,
+   "xmem_rd": 0.09375,
+   "xmem_wr": 0.015625
+  },
+  "bits_to_fields d=4": {
+   "cycles": 1.068359375,
+   "words": 142,
+   "mult_busy": 0.9360146252285192,
+   "lane_occ": 0.9360146252285192,
+   "xmem_rd": 0.046875,
+   "xmem_wr": 0.0078125
+  },
+  "bits_to_fields d=8": {
+   "cycles": 1.08984375,
+   "words": 144,
+   "mult_busy": 0.9175627240143369,
+   "lane_occ": 0.9175627240143369,
+   "xmem_rd": 0.078125,
+   "xmem_wr": 0.0078125
+  },
+  "cbd2 from bits": {
+   "cycles": 273.5,
+   "words": 142,
+   "mult_busy": 0.9360146252285192,
+   "lane_occ": 0.9360146252285192,
+   "xmem_rd": 12.0,
+   "xmem_wr": 2.0
+  },
+  "cbd3 from bits": {
+   "cycles": 269.5,
+   "words": 273,
+   "mult_busy": 0.9499072356215214,
+   "lane_occ": 0.9499072356215214,
+   "xmem_rd": 14.0,
+   "xmem_wr": 2.0
+  },
+  "fields_to_bits d=12": {
+   "cycles": 950.0,
+   "words": 124,
+   "mult_busy": 0.8757894736842106,
+   "lane_occ": 0.35368421052631577,
+   "xmem_rd": 352.0,
+   "xmem_wr": 72.0
+  },
+  "fields_to_bits d=10": {
+   "cycles": 870.0,
+   "words": 222,
+   "mult_busy": 0.9011494252873563,
+   "lane_occ": 0.3218390804597701,
+   "xmem_rd": 304.0,
+   "xmem_wr": 60.0
+  },
+  "fields_to_bits d=4": {
+   "cycles": 390.0,
+   "words": 54,
+   "mult_busy": 0.8615384615384616,
+   "lane_occ": 0.22564102564102564,
+   "xmem_rd": 88.0,
+   "xmem_wr": 16.0
+  },
+  "SampleNTT (parse+prep+9 stages)": {
+   "cycles": 2415,
+   "parts": {
+    "parse": 697,
+    "prep": 255,
+    "stage0": 173,
+    "stage1": 173,
+    "stage2": 173,
+    "stage3": 173,
+    "stage4": 173,
+    "stage5": 173,
+    "stage6": 173,
+    "stage7": 149,
+    "stage8": 103
+   }
+  }
+ }
+}

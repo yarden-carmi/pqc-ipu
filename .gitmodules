@@ -1,0 +1,4 @@
+[submodule "emu"]
+	path = emu
+	url = https://github.com/yarden-carmi/ipu-emulator.git
+	branch = pqc-ipu-pin

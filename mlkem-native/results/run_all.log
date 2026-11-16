@@ -1,0 +1,89 @@
+######## kernels (NX8) against mlkem-native vectors and hashlib
+== test_keccak (Keccak-f[1600]: 24 one-round programs, and one looped program)
+test 0: Keccak-f[1600] bit-exact=True  cycles=4848
+test 1: Keccak-f[1600] bit-exact=True  cycles=4848
+test 2: Keccak-f[1600] bit-exact=True  cycles=4848
+test 3: Keccak-f[1600] bit-exact=True  cycles=4848
+nx8 all ok: True  words/round program: 202
+nx8 looped Keccak-f[1600]: bit-exact=True cycles=4807 program words=207 (body 200 x 24 + prologue)
+== test_nx8_polyops (polynomial kernels)
+NTT (16 vectors + 8 extreme)       bit-exact=True  max|out| 1664  bound 1675
+inverse NTT (to Montgomery)        bit-exact=True  max|out| 1669
+poly_reduce -> [0,q)               bit-exact=True  
+Barrett reduce (all 65536 int16)   bit-exact=True  
+tomont (x 2^16 mod q)              bit-exact=True  max|out| 1664
+poly_add / poly_sub                bit-exact=True  
+mulcache (vs mlk_poly_mulcache)    bit-exact=True  V2[even]*R == cache (mod q), |V| <= (q-1)/2
+basemul_acc_montgomery (k=3)       bit-exact=True  max|out| 1661
+basemul_acc extreme |a|=|V|=1664   bit-exact=True  
+compress d=1                       bit-exact=True  
+compress d=4                       bit-exact=True  
+compress d=10                      bit-exact=True  
+compress d=5 (ML-KEM-1024)         bit-exact=True  
+compress d=11 (ML-KEM-1024)        bit-exact=True  
+decompress d=1 (poly_frommsg)      bit-exact=True  
+decompress d=4                     bit-exact=True  
+decompress d=5 (ML-KEM-1024)       bit-exact=True  
+decompress d=10                    bit-exact=True  
+decompress d=11 (ML-KEM-1024)      bit-exact=True  
+CBD eta=2                          bit-exact=True  
+CBD eta=3 (ML-KEM-512)             bit-exact=True  
+from byte digits + exact centre    bit-exact=True  
+to byte digits (lo8 U8 + hi)       bit-exact=True  
+   zero chain NTT->mulcache->basemul->INTT: max |residue| 2.94e-39
+all-zero rows (2^-127 quirk)       bit-exact=True  zero inputs through every kernel type
+ALL NX8 POLY KERNELS BIT-EXACT: True
+== test_nx8_io (bytes/bits/fields, sponge on bit rows, CBD, SampleNTT)
+bytes -> bits (BytesToBits)              bit-exact=True cycles/byte 1.73
+bits -> fields d=12 (ByteDecode)         bit-exact=True cycles/field 1.09
+bits -> fields d=10 (ByteDecode)         bit-exact=True cycles/field 1.08
+bits -> fields d=4 (ByteDecode)          bit-exact=True cycles/field 1.07
+bits -> bytes (pack)                     bit-exact=True cycles/field 1.09
+CBD eta=2 from PRF bits                  bit-exact=True cycles/poly 274
+CBD eta=3 from PRF bits                  bit-exact=True cycles/poly 270
+fields d=12 -> bits (ByteEncode)         bit-exact=True cycles/poly 950
+fields d=10 -> bits (ByteEncode)         bit-exact=True cycles/poly 870
+fields d=4 -> bits (ByteEncode)          bit-exact=True cycles/poly 390
+   sponge rate 72 ds 0x6 msg 33 B out 64 B: True cycles 4852
+   sponge rate 136 ds 0x6 msg 160 B out 32 B: True cycles 9685
+   sponge rate 168 ds 0x1f msg 34 B out 840 B: True cycles 24196
+   sponge rate 136 ds 0x1f msg 33 B out 128 B: True cycles 4861
+SHA3-256/512, SHAKE128/256 on bit rows   bit-exact=True 
+   sample trial 30: ok (full=True, fail flag=0)
+   sample trial 31: ok (full=True, fail flag=0)
+   sample trial 32: ok (full=True, fail flag=0)
+   sample trial 33: ok (full=False, fail flag=1)
+   sample trial 34: ok (full=False, fail flag=1)
+SampleNTT, fixed 5-block schedule        bit-exact=True (30 random seeds + 5 crafted) cycles 2415 {'parse': 697, 'prep': 255, 'stage0': 173, 'stage1': 173, 'stage2': 173, 'stage3': 173, 'stage4': 173, 'stage5': 173, 'stage6': 173, 'stage7': 149, 'stage8': 103}
+ALL NX8 IO KERNELS BIT-EXACT: True
+######## ML-KEM-768 entirely on the IPU, host rule enforced (StrictSession)
+== test_kem_ipu main
+keygen: ek, dk bit-exact, status 1         OK
+encaps: ct, ss bit-exact, status 1         OK
+decaps: ss bit-exact, status 1             OK
+decaps implicit rejection (flipped bit)    OK
+decaps implicit rejection (c1 = 0)         OK
+decaps implicit rejection (all-zero ct)    OK
+encaps rejects ek with t >= q (C: -4)      OK
+decaps rejects dk with H(ek) != h (C: -5)  OK
+host XMEM accesses between launches: 0     OK
+host XMEM accesses: before first launch 3180 (constants + inputs), between launches 0, after last 124 (outputs)
+keygen: total 332826 cycles {'encode': 10325, 'keccak': 295345, 'sampling': 23703, 'poly': 3453} launches 284
+encaps: total 336441 cycles {'encode': 7875, 'keccak': 300209, 'sampling': 23973, 'poly': 4384} launches 292
+decaps: total 384114 cycles {'encode': 9520, 'poly': 6765, 'keccak': 343762, 'sampling': 23973, 'fo': 94} launches 320
+ALL OK: True
+== test_kem_ipu seeds 0..2
+seed 0: ek dk ct ss(enc) ss(dec) bit-exact OK
+seed 1: ek dk ct ss(enc) ss(dec) bit-exact OK
+seed 2: ek dk ct ss(enc) ss(dec) bit-exact OK
+host XMEM accesses between launches: 0     OK
+host XMEM accesses: before first launch 3098 (constants + inputs), between launches 0, after last 258 (outputs)
+ALL OK: True
+== test_kem_ipu seeds 3..5
+seed 3: ek dk ct ss(enc) ss(dec) bit-exact OK
+seed 4: ek dk ct ss(enc) ss(dec) bit-exact OK
+seed 5: ek dk ct ss(enc) ss(dec) bit-exact OK
+host XMEM accesses between launches: 0     OK
+host XMEM accesses: before first launch 3098 (constants + inputs), between launches 0, after last 258 (outputs)
+ALL OK: True
+NX8 summary: ALL BIT-EXACT

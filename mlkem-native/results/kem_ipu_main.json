@@ -1,0 +1,1862 @@
+{
+ "results": {
+  "keygen: ek, dk bit-exact, status 1": true,
+  "encaps: ct, ss bit-exact, status 1": true,
+  "decaps: ss bit-exact, status 1": true,
+  "decaps implicit rejection (flipped bit)": true,
+  "decaps implicit rejection (c1 = 0)": true,
+  "decaps implicit rejection (all-zero ct)": true,
+  "encaps rejects ek with t >= q (C: -4)": true,
+  "decaps rejects dk with H(ek) != h (C: -5)": true,
+  "host XMEM accesses between launches: 0": true
+ },
+ "ops": {
+  "keygen": {
+   "cycles": {
+    "encode": 10325,
+    "keccak": 295345,
+    "sampling": 23703,
+    "poly": 3453
+   },
+   "total": 332826,
+   "launches": 284,
+   "host_accesses_during_run": 0,
+   "per_kernel": {
+    "unpack_d": [
+     220,
+     1,
+     "encode",
+     220
+    ],
+    "unpack_z": [
+     220,
+     1,
+     "encode",
+     220
+    ],
+    "xof00.zero0": [
+     306,
+     17,
+     "keccak",
+     18
+    ],
+    "G_kg.absorb15": [
+     15,
+     1,
+     "keccak",
+     15
+    ],
+    "permute": [
+     293227,
+     61,
+     "keccak",
+     207
+    ],
+    "G_kg.extract16": [
+     12,
+     1,
+     "keccak",
+     12
+    ],
+    "prfkg0.absorb17": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "prfkg0.extract18": [
+     20,
+     1,
+     "keccak",
+     20
+    ],
+    "prfkg1.absorb19": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "prfkg1.extract20": [
+     20,
+     1,
+     "keccak",
+     20
+    ],
+    "prfkg2.absorb21": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "prfkg2.extract22": [
+     20,
+     1,
+     "keccak",
+     20
+    ],
+    "prfkg3.absorb23": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "prfkg3.extract24": [
+     20,
+     1,
+     "keccak",
+     20
+    ],
+    "prfkg4.absorb25": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "prfkg4.extract26": [
+     20,
+     1,
+     "keccak",
+     20
+    ],
+    "prfkg5.absorb27": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "prfkg5.extract28": [
+     20,
+     1,
+     "keccak",
+     20
+    ],
+    "cbdkg": [
+     1627,
+     1,
+     "sampling",
+     142
+    ],
+    "xof00.absorb1": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "xof00.extract2": [
+     225,
+     9,
+     "keccak",
+     25
+    ],
+    "xof00.extract3": [
+     234,
+     9,
+     "keccak",
+     26
+    ],
+    "xof00.extract4": [
+     225,
+     9,
+     "keccak",
+     25
+    ],
+    "xof00.extract5": [
+     234,
+     9,
+     "keccak",
+     26
+    ],
+    "xof00.extract6": [
+     225,
+     9,
+     "keccak",
+     25
+    ],
+    "parse": [
+     6273,
+     9,
+     "sampling",
+     145
+    ],
+    "prep_first": [
+     255,
+     1,
+     "sampling",
+     255
+    ],
+    "stage0": [
+     1557,
+     9,
+     "sampling",
+     173
+    ],
+    "stage1": [
+     1557,
+     9,
+     "sampling",
+     173
+    ],
+    "stage2": [
+     1557,
+     9,
+     "sampling",
+     173
+    ],
+    "stage3": [
+     1557,
+     9,
+     "sampling",
+     173
+    ],
+    "stage4": [
+     1557,
+     9,
+     "sampling",
+     173
+    ],
+    "stage5": [
+     1557,
+     9,
+     "sampling",
+     173
+    ],
+    "stage6": [
+     1557,
+     9,
+     "sampling",
+     173
+    ],
+    "stage7": [
+     1341,
+     9,
+     "sampling",
+     149
+    ],
+    "stage8": [
+     927,
+     9,
+     "sampling",
+     103
+    ],
+    "centre_A0": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "xof01.absorb7": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "prep": [
+     2048,
+     8,
+     "sampling",
+     256
+    ],
+    "centre_A1": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "xof02.absorb8": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "centre_A2": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "xof10.absorb9": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "centre_A3": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "xof11.absorb10": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "centre_A4": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "xof12.absorb11": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "centre_A5": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "xof20.absorb12": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "centre_A6": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "xof21.absorb13": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "centre_A7": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "xof22.absorb14": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "centre_A8": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "ntt_se": [
+     2413,
+     1,
+     "poly",
+     408
+    ],
+    "mulcache_s": [
+     366,
+     1,
+     "poly",
+     126
+    ],
+    "basemul_As": [
+     439,
+     1,
+     "poly",
+     151
+    ],
+    "add_te": [
+     39,
+     1,
+     "poly",
+     39
+    ],
+    "reduce_t": [
+     98,
+     1,
+     "poly",
+     36
+    ],
+    "reduce_s": [
+     98,
+     1,
+     "poly",
+     36
+    ],
+    "todigt": [
+     68,
+     1,
+     "encode",
+     26
+    ],
+    "f2b12t0": [
+     950,
+     1,
+     "encode",
+     124
+    ],
+    "f2b12t1": [
+     950,
+     1,
+     "encode",
+     124
+    ],
+    "f2b12t2": [
+     950,
+     1,
+     "encode",
+     124
+    ],
+    "todigs": [
+     68,
+     1,
+     "encode",
+     26
+    ],
+    "f2b12s0": [
+     950,
+     1,
+     "encode",
+     124
+    ],
+    "f2b12s1": [
+     950,
+     1,
+     "encode",
+     124
+    ],
+    "f2b12s2": [
+     950,
+     1,
+     "encode",
+     124
+    ],
+    "H_kg.absorb29": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "H_kg.absorb30": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "H_kg.absorb31": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "H_kg.absorb32": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "H_kg.absorb33": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "H_kg.absorb34": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "H_kg.absorb35": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "H_kg.absorb36": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "H_kg.absorb37": [
+     26,
+     1,
+     "keccak",
+     26
+    ],
+    "H_kg.extract38": [
+     8,
+     1,
+     "keccak",
+     8
+    ],
+    "packek": [
+     1386,
+     1,
+     "encode",
+     144
+    ],
+    "packdk": [
+     2628,
+     1,
+     "encode",
+     144
+    ],
+    "ok_kg": [
+     35,
+     1,
+     "encode",
+     35
+    ]
+   }
+  },
+  "encaps": {
+   "cycles": {
+    "encode": 7875,
+    "keccak": 300209,
+    "sampling": 23973,
+    "poly": 4384
+   },
+   "total": 336441,
+   "launches": 292,
+   "host_accesses_during_run": 0,
+   "per_kernel": {
+    "unpack_ek": [
+     2206,
+     1,
+     "encode",
+     226
+    ],
+    "unpack_m": [
+     220,
+     1,
+     "encode",
+     220
+    ],
+    "xof00.zero0": [
+     324,
+     18,
+     "keccak",
+     18
+    ],
+    "H_kg.absorb29": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "permute": [
+     298034,
+     62,
+     "keccak",
+     207
+    ],
+    "H_kg.absorb30": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "H_kg.absorb31": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "H_kg.absorb32": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "H_kg.absorb33": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "H_kg.absorb34": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "H_kg.absorb35": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "H_kg.absorb36": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "H_kg.absorb37": [
+     26,
+     1,
+     "keccak",
+     26
+    ],
+    "H_en.extract39": [
+     8,
+     1,
+     "keccak",
+     8
+    ],
+    "G_en.absorb40": [
+     18,
+     1,
+     "keccak",
+     18
+    ],
+    "G_en.extract41": [
+     12,
+     1,
+     "keccak",
+     12
+    ],
+    "decodeten": [
+     835,
+     1,
+     "encode",
+     145
+    ],
+    "centreten": [
+     98,
+     1,
+     "encode",
+     36
+    ],
+    "xof00.absorb1": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "xof00.extract2": [
+     225,
+     9,
+     "keccak",
+     25
+    ],
+    "xof00.extract3": [
+     234,
+     9,
+     "keccak",
+     26
+    ],
+    "xof00.extract4": [
+     225,
+     9,
+     "keccak",
+     25
+    ],
+    "xof00.extract5": [
+     234,
+     9,
+     "keccak",
+     26
+    ],
+    "xof00.extract6": [
+     225,
+     9,
+     "keccak",
+     25
+    ],
+    "parse": [
+     6273,
+     9,
+     "sampling",
+     145
+    ],
+    "prep_first": [
+     255,
+     1,
+     "sampling",
+     255
+    ],
+    "stage0": [
+     1557,
+     9,
+     "sampling",
+     173
+    ],
+    "stage1": [
+     1557,
+     9,
+     "sampling",
+     173
+    ],
+    "stage2": [
+     1557,
+     9,
+     "sampling",
+     173
+    ],
+    "stage3": [
+     1557,
+     9,
+     "sampling",
+     173
+    ],
+    "stage4": [
+     1557,
+     9,
+     "sampling",
+     173
+    ],
+    "stage5": [
+     1557,
+     9,
+     "sampling",
+     173
+    ],
+    "stage6": [
+     1557,
+     9,
+     "sampling",
+     173
+    ],
+    "stage7": [
+     1341,
+     9,
+     "sampling",
+     149
+    ],
+    "stage8": [
+     927,
+     9,
+     "sampling",
+     103
+    ],
+    "centre_A0": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "xof01.absorb7": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "prep": [
+     2048,
+     8,
+     "sampling",
+     256
+    ],
+    "centre_A1": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "xof02.absorb8": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "centre_A2": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "xof10.absorb9": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "centre_A3": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "xof11.absorb10": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "centre_A4": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "xof12.absorb11": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "centre_A5": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "xof20.absorb12": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "centre_A6": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "xof21.absorb13": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "centre_A7": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "xof22.absorb14": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "centre_A8": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "ek_range_check": [
+     52,
+     1,
+     "encode",
+     52
+    ],
+    "prfen0.absorb42": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "prfkg0.extract18": [
+     20,
+     1,
+     "keccak",
+     20
+    ],
+    "prfen1.absorb43": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "prfkg1.extract20": [
+     20,
+     1,
+     "keccak",
+     20
+    ],
+    "prfen2.absorb44": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "prfkg2.extract22": [
+     20,
+     1,
+     "keccak",
+     20
+    ],
+    "prfen3.absorb45": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "prfkg3.extract24": [
+     20,
+     1,
+     "keccak",
+     20
+    ],
+    "prfen4.absorb46": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "prfkg4.extract26": [
+     20,
+     1,
+     "keccak",
+     20
+    ],
+    "prfen5.absorb47": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "prfkg5.extract28": [
+     20,
+     1,
+     "keccak",
+     20
+    ],
+    "prfen6.absorb48": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "prfen6.extract49": [
+     20,
+     1,
+     "keccak",
+     20
+    ],
+    "cbden": [
+     1897,
+     1,
+     "sampling",
+     142
+    ],
+    "ntt_ren": [
+     1210,
+     1,
+     "poly",
+     408
+    ],
+    "mulcache_ren": [
+     366,
+     1,
+     "poly",
+     126
+    ],
+    "basemul_uen": [
+     439,
+     1,
+     "poly",
+     151
+    ],
+    "basemul_ven": [
+     144,
+     1,
+     "poly",
+     144
+    ],
+    "intt_uven": [
+     1782,
+     1,
+     "poly",
+     450
+    ],
+    "decompress_muen": [
+     17,
+     1,
+     "poly",
+     17
+    ],
+    "add_encen": [
+     55,
+     1,
+     "poly",
+     55
+    ],
+    "reduce_uven": [
+     145,
+     1,
+     "poly",
+     40
+    ],
+    "compress_uen": [
+     201,
+     1,
+     "poly",
+     71
+    ],
+    "compress_ven": [
+     25,
+     1,
+     "poly",
+     25
+    ],
+    "todig_uen": [
+     68,
+     1,
+     "encode",
+     26
+    ],
+    "f2b10en0": [
+     870,
+     1,
+     "encode",
+     222
+    ],
+    "f2b10en1": [
+     870,
+     1,
+     "encode",
+     222
+    ],
+    "f2b10en2": [
+     870,
+     1,
+     "encode",
+     222
+    ],
+    "f2b4en": [
+     390,
+     1,
+     "encode",
+     54
+    ],
+    "packct": [
+     1248,
+     1,
+     "encode",
+     144
+    ],
+    "packss_en": [
+     132,
+     1,
+     "encode",
+     132
+    ],
+    "ok_en": [
+     16,
+     1,
+     "encode",
+     16
+    ]
+   }
+  },
+  "decaps": {
+   "cycles": {
+    "encode": 9520,
+    "poly": 6765,
+    "keccak": 343762,
+    "sampling": 23973,
+    "fo": 94
+   },
+   "total": 384114,
+   "launches": 320,
+   "host_accesses_during_run": 0,
+   "per_kernel": {
+    "unpack_dk": [
+     4406,
+     1,
+     "encode",
+     226
+    ],
+    "unpack_ct": [
+     1986,
+     1,
+     "encode",
+     226
+    ],
+    "decodes": [
+     835,
+     1,
+     "encode",
+     145
+    ],
+    "centres": [
+     98,
+     1,
+     "encode",
+     36
+    ],
+    "decode_u": [
+     826,
+     1,
+     "encode",
+     280
+    ],
+    "decode_v": [
+     277,
+     1,
+     "encode",
+     142
+    ],
+    "decompress_u": [
+     67,
+     1,
+     "poly",
+     25
+    ],
+    "decompress_v": [
+     17,
+     1,
+     "poly",
+     17
+    ],
+    "ntt_u": [
+     1276,
+     1,
+     "poly",
+     430
+    ],
+    "mulcache_u": [
+     366,
+     1,
+     "poly",
+     126
+    ],
+    "basemul_w": [
+     144,
+     1,
+     "poly",
+     144
+    ],
+    "intt_w": [
+     444,
+     1,
+     "poly",
+     444
+    ],
+    "sub_w": [
+     15,
+     1,
+     "poly",
+     15
+    ],
+    "reduce_w": [
+     31,
+     1,
+     "poly",
+     31
+    ],
+    "compress_m": [
+     21,
+     1,
+     "poly",
+     21
+    ],
+    "xof00.zero0": [
+     342,
+     19,
+     "keccak",
+     18
+    ],
+    "G_de.absorb50": [
+     18,
+     1,
+     "keccak",
+     18
+    ],
+    "permute": [
+     341297,
+     71,
+     "keccak",
+     207
+    ],
+    "G_en.extract41": [
+     12,
+     1,
+     "keccak",
+     12
+    ],
+    "J_de.absorb51": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "J_de.absorb52": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "J_de.absorb53": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "J_de.absorb54": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "J_de.absorb55": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "J_de.absorb56": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "J_de.absorb57": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "J_de.absorb58": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "J_de.absorb59": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "J_de.extract60": [
+     8,
+     1,
+     "keccak",
+     8
+    ],
+    "decodetde": [
+     835,
+     1,
+     "encode",
+     145
+    ],
+    "centretde": [
+     98,
+     1,
+     "encode",
+     36
+    ],
+    "xof00.absorb1": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "xof00.extract2": [
+     225,
+     9,
+     "keccak",
+     25
+    ],
+    "xof00.extract3": [
+     234,
+     9,
+     "keccak",
+     26
+    ],
+    "xof00.extract4": [
+     225,
+     9,
+     "keccak",
+     25
+    ],
+    "xof00.extract5": [
+     234,
+     9,
+     "keccak",
+     26
+    ],
+    "xof00.extract6": [
+     225,
+     9,
+     "keccak",
+     25
+    ],
+    "parse": [
+     6273,
+     9,
+     "sampling",
+     145
+    ],
+    "prep_first": [
+     255,
+     1,
+     "sampling",
+     255
+    ],
+    "stage0": [
+     1557,
+     9,
+     "sampling",
+     173
+    ],
+    "stage1": [
+     1557,
+     9,
+     "sampling",
+     173
+    ],
+    "stage2": [
+     1557,
+     9,
+     "sampling",
+     173
+    ],
+    "stage3": [
+     1557,
+     9,
+     "sampling",
+     173
+    ],
+    "stage4": [
+     1557,
+     9,
+     "sampling",
+     173
+    ],
+    "stage5": [
+     1557,
+     9,
+     "sampling",
+     173
+    ],
+    "stage6": [
+     1557,
+     9,
+     "sampling",
+     173
+    ],
+    "stage7": [
+     1341,
+     9,
+     "sampling",
+     149
+    ],
+    "stage8": [
+     927,
+     9,
+     "sampling",
+     103
+    ],
+    "centre_A0": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "xof01.absorb7": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "prep": [
+     2048,
+     8,
+     "sampling",
+     256
+    ],
+    "centre_A1": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "xof02.absorb8": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "centre_A2": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "xof10.absorb9": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "centre_A3": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "xof11.absorb10": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "centre_A4": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "xof12.absorb11": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "centre_A5": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "xof20.absorb12": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "centre_A6": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "xof21.absorb13": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "centre_A7": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "xof22.absorb14": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "centre_A8": [
+     37,
+     1,
+     "sampling",
+     37
+    ],
+    "prfen0.absorb42": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "prfkg0.extract18": [
+     20,
+     1,
+     "keccak",
+     20
+    ],
+    "prfen1.absorb43": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "prfkg1.extract20": [
+     20,
+     1,
+     "keccak",
+     20
+    ],
+    "prfen2.absorb44": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "prfkg2.extract22": [
+     20,
+     1,
+     "keccak",
+     20
+    ],
+    "prfen3.absorb45": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "prfkg3.extract24": [
+     20,
+     1,
+     "keccak",
+     20
+    ],
+    "prfen4.absorb46": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "prfkg4.extract26": [
+     20,
+     1,
+     "keccak",
+     20
+    ],
+    "prfen5.absorb47": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "prfkg5.extract28": [
+     20,
+     1,
+     "keccak",
+     20
+    ],
+    "prfen6.absorb48": [
+     16,
+     1,
+     "keccak",
+     16
+    ],
+    "prfen6.extract49": [
+     20,
+     1,
+     "keccak",
+     20
+    ],
+    "cbdde": [
+     1897,
+     1,
+     "sampling",
+     142
+    ],
+    "ntt_rde": [
+     1210,
+     1,
+     "poly",
+     408
+    ],
+    "mulcache_rde": [
+     366,
+     1,
+     "poly",
+     126
+    ],
+    "basemul_ude": [
+     439,
+     1,
+     "poly",
+     151
+    ],
+    "basemul_vde": [
+     144,
+     1,
+     "poly",
+     144
+    ],
+    "intt_uvde": [
+     1782,
+     1,
+     "poly",
+     450
+    ],
+    "decompress_mude": [
+     17,
+     1,
+     "poly",
+     17
+    ],
+    "add_encde": [
+     55,
+     1,
+     "poly",
+     55
+    ],
+    "reduce_uvde": [
+     145,
+     1,
+     "poly",
+     40
+    ],
+    "compress_ude": [
+     201,
+     1,
+     "poly",
+     71
+    ],
+    "compress_vde": [
+     25,
+     1,
+     "poly",
+     25
+    ],
+    "H_kg.absorb29": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "H_kg.absorb30": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "H_kg.absorb31": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "H_kg.absorb32": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "H_kg.absorb33": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "H_kg.absorb34": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "H_kg.absorb35": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "H_kg.absorb36": [
+     31,
+     1,
+     "keccak",
+     31
+    ],
+    "H_kg.absorb37": [
+     26,
+     1,
+     "keccak",
+     26
+    ],
+    "H_de.extract61": [
+     8,
+     1,
+     "keccak",
+     8
+    ],
+    "dk_hash_check": [
+     20,
+     1,
+     "encode",
+     20
+    ],
+    "fo_select": [
+     94,
+     1,
+     "fo",
+     94
+    ],
+    "packss_de": [
+     132,
+     1,
+     "encode",
+     132
+    ],
+    "ok_de": [
+     7,
+     1,
+     "encode",
+     7
+    ]
+   }
+  }
+ },
+ "host_log_counts": {
+  "before": 3180,
+  "during": 0,
+  "after": 124
+ },
+ "kernels": 160,
+ "scratch_end": 3284,
+ "words": {
+  "permute": 207,
+  "unpack_d": 220,
+  "unpack_z": 220,
+  "unpack_m": 220,
+  "unpack_ek": 226,
+  "unpack_dk": 226,
+  "unpack_ct": 226,
+  "xof00.zero0": 18,
+  "xof00.absorb1": 16,
+  "xof00.extract2": 25,
+  "xof00.extract3": 26,
+  "xof00.extract4": 25,
+  "xof00.extract5": 26,
+  "xof00.extract6": 25,
+  "parse": 145,
+  "prep_first": 255,
+  "prep": 256,
+  "stage0": 173,
+  "stage1": 173,
+  "stage2": 173,
+  "stage3": 173,
+  "stage4": 173,
+  "stage5": 173,
+  "stage6": 173,
+  "stage7": 149,
+  "stage8": 103,
+  "centre_A0": 37,
+  "xof01.absorb7": 16,
+  "centre_A1": 37,
+  "xof02.absorb8": 16,
+  "centre_A2": 37,
+  "xof10.absorb9": 16,
+  "centre_A3": 37,
+  "xof11.absorb10": 16,
+  "centre_A4": 37,
+  "xof12.absorb11": 16,
+  "centre_A5": 37,
+  "xof20.absorb12": 16,
+  "centre_A6": 37,
+  "xof21.absorb13": 16,
+  "centre_A7": 37,
+  "xof22.absorb14": 16,
+  "centre_A8": 37,
+  "G_kg.absorb15": 15,
+  "G_kg.extract16": 12,
+  "prfkg0.absorb17": 16,
+  "prfkg0.extract18": 20,
+  "prfkg1.absorb19": 16,
+  "prfkg1.extract20": 20,
+  "prfkg2.absorb21": 16,
+  "prfkg2.extract22": 20,
+  "prfkg3.absorb23": 16,
+  "prfkg3.extract24": 20,
+  "prfkg4.absorb25": 16,
+  "prfkg4.extract26": 20,
+  "prfkg5.absorb27": 16,
+  "prfkg5.extract28": 20,
+  "cbdkg": 142,
+  "ntt_se": 408,
+  "mulcache_s": 126,
+  "basemul_As": 151,
+  "add_te": 39,
+  "reduce_t": 36,
+  "reduce_s": 36,
+  "todigt": 26,
+  "f2b12t0": 124,
+  "f2b12t1": 124,
+  "f2b12t2": 124,
+  "todigs": 26,
+  "f2b12s0": 124,
+  "f2b12s1": 124,
+  "f2b12s2": 124,
+  "H_kg.absorb29": 31,
+  "H_kg.absorb30": 31,
+  "H_kg.absorb31": 31,
+  "H_kg.absorb32": 31,
+  "H_kg.absorb33": 31,
+  "H_kg.absorb34": 31,
+  "H_kg.absorb35": 31,
+  "H_kg.absorb36": 31,
+  "H_kg.absorb37": 26,
+  "H_kg.extract38": 8,
+  "packek": 144,
+  "packdk": 144,
+  "ok_kg": 35,
+  "H_en.extract39": 8,
+  "G_en.absorb40": 18,
+  "G_en.extract41": 12,
+  "decodeten": 145,
+  "centreten": 36,
+  "ek_range_check": 52,
+  "prfen0.absorb42": 16,
+  "prfen1.absorb43": 16,
+  "prfen2.absorb44": 16,
+  "prfen3.absorb45": 16,
+  "prfen4.absorb46": 16,
+  "prfen5.absorb47": 16,
+  "prfen6.absorb48": 16,
+  "prfen6.extract49": 20,
+  "cbden": 142,
+  "ntt_ren": 408,
+  "mulcache_ren": 126,
+  "basemul_uen": 151,
+  "basemul_ven": 144,
+  "intt_uven": 450,
+  "decompress_muen": 17,
+  "add_encen": 55,
+  "reduce_uven": 40,
+  "compress_uen": 71,
+  "compress_ven": 25,
+  "todig_uen": 26,
+  "f2b10en0": 222,
+  "f2b10en1": 222,
+  "f2b10en2": 222,
+  "f2b4en": 54,
+  "packct": 144,
+  "packss_en": 132,
+  "ok_en": 16,
+  "decodes": 145,
+  "centres": 36,
+  "decode_u": 280,
+  "decode_v": 142,
+  "decompress_u": 25,
+  "decompress_v": 17,
+  "ntt_u": 430,
+  "mulcache_u": 126,
+  "basemul_w": 144,
+  "intt_w": 444,
+  "sub_w": 15,
+  "reduce_w": 31,
+  "compress_m": 21,
+  "G_de.absorb50": 18,
+  "J_de.absorb51": 31,
+  "J_de.absorb52": 31,
+  "J_de.absorb53": 31,
+  "J_de.absorb54": 31,
+  "J_de.absorb55": 31,
+  "J_de.absorb56": 31,
+  "J_de.absorb57": 31,
+  "J_de.absorb58": 31,
+  "J_de.absorb59": 16,
+  "J_de.extract60": 8,
+  "decodetde": 145,
+  "centretde": 36,
+  "cbdde": 142,
+  "ntt_rde": 408,
+  "mulcache_rde": 126,
+  "basemul_ude": 151,
+  "basemul_vde": 144,
+  "intt_uvde": 450,
+  "decompress_mude": 17,
+  "add_encde": 55,
+  "reduce_uvde": 40,
+  "compress_ude": 71,
+  "compress_vde": 25,
+  "H_de.extract61": 8,
+  "dk_hash_check": 20,
+  "fo_select": 94,
+  "packss_de": 132,
+  "ok_de": 7
+ }
+}
